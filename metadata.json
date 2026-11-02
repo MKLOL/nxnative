@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-02T17:44:38.757558+00:00",
+  "base_commit": "65501fbbaf85",
+  "arena": "Mushroom Way; 3 Goombas;3Chain;19/20HP;7/10FP",
+  "capture_method": "Unmodified native Metal host PNG snapshots; actual separate copies of same checkpoint",
+  "before": "smrpg-upstream-65501fbb.png",
+  "after": "smrpg-rgba4-fix.png",
+  "audio": "DM_AUDIO1+DM_AUDIO_MUTE1 on both",
+  "scope": "Functional scene check only; images contain different animation phases; initial setup used genuine552-shader subset, no failed loads.",
+  "candidate_commit": "b8adb672d245f9a3cbea9af1d2f634c618aeb25d",
+  "full_recheck": {
+    "chain": "e047be1b6829",
+    "shader_count": 82032,
+    "baseline": "Two Paratroopas, dark arena",
+    "candidate": "Two Goombas, sunlit arena and completed attack",
+    "note": "Separate encounters; compare lighting, not enemy formation or animation. Same original copied checkpoint, full generated metadata. Both exit 0, zero missing/failed shader or pipeline loads."
+  },
+  "files": {
+    "README.md": "bfe1eb42b1b75f32f730409af5f0853f1872cdadbfb445384f9fd92ee21d284c",
+    "regression-report.md": "3b7882b52afc55ad45b32089870da24c0c31f56f9d7cf4a97f4afe3e0b177321",
+    "smrpg-baseline-01-runtime.txt": "781af5780f5a5a9ed8fb7cf76a522146827942a6ce8e1c3c11949a509f24904c",
+    "smrpg-candidate-01-runtime.txt": "5cbc36b1c960fb24c0f5bf8f11f5b9826f645e6895304311ef518f160486d0b0",
+    "smrpg-rgba4-fix-full-runtime.txt": "468a427bd98cac4c2982a2209071d98e9e8cb492e3a73b4c9db4439e1a4564be",
+    "smrpg-rgba4-fix.png": "9bc1a9abaafde9acca50bb788ec67fb9d6e5f0fe0dcc7ec9825d5df9efe4390b",
+    "smrpg-rgba4-full-goombas.png": "4355a3a10ae9771b369e6d325fbe2d1d540b336cca84d63fb1e07ebfa2ef932f",
+    "smrpg-upstream-65501fbb.png": "936dc18e71fb71fbb166641e68f26ada7acd2699f9416afe1008f215d6f5947c",
+    "smrpg-upstream-full-paratroopas.png": "6cbd1c26e1817838dc65fa953994b554220765e9744c4388a0ae11dd6b49a2f2",
+    "smrpg-upstream-full-runtime.txt": "335cfa752131eae4556d05d75385b69adacdd2f19995f16eda24bdd92af80474"
+  }
+}
