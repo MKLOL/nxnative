@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-02T19:57:09.096915+00:00",
+  "candidate": "1fac3312fe86e0c5a7ec6a27cfa84aba2a55aa81",
+  "baseline": "65501fbbaf8526f7aab0a1edd028135888590f8e",
+  "host_core_files": {
+    "dm/gfx/nvn/nvn_mtl.m": "b0c2cbe9f722fed6718e337631dd1612dc76f2769cdae721c2518e4e0a710c60",
+    "dm/gfx/nvn/hle_nvn.c": "1bec181e8aaae8e28dc0eab145eda0cada48a2d5b5232fd328d0a0e38d800411",
+    "dm/gfx/msl/rb_swap.metal": "e959abbfb4cd277cf37023b3da2486c8f8a909432d09fdd774a2c1e460febe60",
+    "dm/gfx/tex/nvn_fmt_mtl.c": "bb02f090cc0d53a051f58dd20260bff6ff7b2f6a082e0071b9201a285d21c7bc"
+  },
+  "rpg_host_sha256": "b4368dca0d3f8861300324dfe0fd231145be9098eadd57f6d5d36781ec66bf03",
+  "control_host_sha256": "71518a78746005902a9657318504013a5dfcee070c05d5aa0986716aaeef8ad8",
+  "files": {
+    "13-sentinels-loaded.png": "d7e317d24f7849bb5008d27f0a04651f60ee8dabe8c76c477e84f7b9d5294a22",
+    "13-sentinels-runtime.txt": "21f480946be2aafd2f74845b35da3ea66e027e8e65b30eb4dc0ee17e7fa2e227",
+    "README.md": "5b0e19b8805ded75afc21feb19f0ddca8a92830fa89e14cfbd4a6456a74d490f",
+    "array-clear-before.txt": "95636e29ea2292b43367787e29db5d384e1d51a396d82334261ca08a89c79e1b",
+    "check-summary.txt": "8dda04ea9c90137830dbad813fef65e752ef0e7b9b845f02fa7068ea2af38845",
+    "clang-tidy.txt": "68636609a313847da757b7e967bb142972ded2a35c98c426c0d7f6f16c5855fe",
+    "epoch-before.txt": "ce8076655c73e14c9348b37f0730c57a2c5239d87670e2f558e52db5255ebdd9",
+    "inverse-image-baseline.txt": "76d9d0049ea1ff95304d1885ad8b52dafee056208a147a2aefc16b08c57faa38",
+    "inverse-image-before.txt": "0c853a8d0ab4aab2d9a488e7e7840450161b0b9cb39f25ed0826b661506f2fc8",
+    "mrt-layer-before.txt": "b3996f7c14b0f47468fa0b4692a6089432104a757148a6a168c05b4e2b4becb1",
+    "regression-report.md": "5ed1a06636064d0efd373514b5bde79404d5fdd964f62d4c36ef93393c0a0a82",
+    "rpg-after-attack.png": "9d216be9e8a879f38a54927bf47807a75f5f6f2ddbc2ca71235e7778f49f6e52",
+    "rpg-battle.png": "39600f8074f78fdea456cca58cef9af8d2a4124b19b719e886ad5f0dab462005",
+    "rpg-runtime.txt": "8ef32aa42a2db633892d6e0769eccc55aa75aeca88fde76ec3bf159fca0c6dad"
+  }
+}

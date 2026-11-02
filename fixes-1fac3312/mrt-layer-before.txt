@@ -1,0 +1,12 @@
+[dm] [nvn] null device: 743 names, 481 implemented (467 semantic + 14 empty, 342 of them on the large host stack), the other 262 go to the red-reporting stub
+2026-11-02 13:29:12.604 mrt-layer-clobber[5568:10606007] Metal API Validation Enabled
+[dm] [msl] host shader libraries: 13, compiled for macosx by Apple metal version 32023.922 (metalfe-32023.922.4)
+[dm] [nvn-mtl] Metal device Apple M5 Max
+[dm] [nvn-mtl] TBDR optimizations off by default (this game uses bindless textures; DM_NVN_TBDR=1 turns them on)
+[dm] [nvn-mtl] packed 16-bit copy between guest memory and a host texture: components converted on the GPU (first case 2x1x1 texels)
+[dm] [nvn-mtl] game SyncWaits wake on the GPU's signal of the fence (DM_NVN_FAST_WAKE)
+[dm] [nvn-mtl] counter timestamps: one time for the whole submission (profile key gpu_timestamps; DM_NVN_GPU_TS=segment / submission)
+slice0: 1248 1248
+FAIL: MRT native and converted layers retain their independent clears
+slice1: 7531 7531
+3 checks, 1 failures

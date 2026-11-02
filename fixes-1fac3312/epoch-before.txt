@@ -1,0 +1,24 @@
+checks=17 fails=8
+[dm] [nvn] null device: 743 names, 481 implemented (467 semantic + 14 empty, 342 of them on the large host stack), the other 262 go to the red-reporting stub
+2026-11-02 14:49:39.995 baseline-corrected-447[20967:10694121] Metal API Validation Enabled
+[dm] [msl] host shader libraries: 13, compiled for macosx by Apple metal version 32023.922 (metalfe-32023.922.4)
+[dm] [nvn-mtl] Metal device Apple M5 Max
+[dm] [nvn-mtl] packed 16-bit copy between guest memory and a host texture: components converted on the GPU (first case 2x1x1 texels)
+[dm] [nvn-mtl] game SyncWaits wake on the GPU's signal of the fence (DM_NVN_FAST_WAKE)
+[dm] [nvn-mtl] counter timestamps: one time for the whole submission (profile key gpu_timestamps; DM_NVN_GPU_TS=segment / submission)
+case 447 component 0: got 0.0666667 expected 0
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 1: got 0.133333 expected 0
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 2: got 0.266667 expected 1
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 3: got 0.533333 expected 0
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 4: got 0.0666667 expected 0.466667
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 5: got 0.133333 expected 0.333333
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 6: got 0.266667 expected 0.2
+FAIL: sampled channel matches NVN format and mapping
+case 447 component 7: got 0.533333 expected 0.0666667
+FAIL: sampled channel matches NVN format and mapping

@@ -1,0 +1,9 @@
+[dm] [nvn] null device: 743 names, 481 implemented (467 semantic + 14 empty, 342 of them on the large host stack), the other 262 go to the red-reporting stub
+2026-11-02 13:28:58.911 candidate-store[5476:10605663] Metal API Validation Enabled
+[dm] [msl] host shader libraries: 13, compiled for macosx by Apple metal version 32023.922 (metalfe-32023.922.4)
+[dm] [nvn-mtl] Metal device Apple M5 Max
+[dm] [nvn-mtl] packed 16-bit copy between guest memory and a host texture: components converted on the GPU (first case 2x1x1 texels)
+[dm] [nvn-mtl] [RED] texture bound to an image slot lacks the shader-write usage (texture ID 490, serial 99490, target 1, format 0x8, flags 0x4, Metal usage 0x15, parent usage 0x15, slot 0, writes 1)
+[dm] [nvn-mtl] counter timestamps: one time for the whole submission (profile key gpu_timestamps; DM_NVN_GPU_TS=segment / submission)
+INVERSE real=0 basepf=23 imagepf=123 usage=3 expected=R16Uint writable
+STORE guest=8421,0f00 expected=1357,0f00

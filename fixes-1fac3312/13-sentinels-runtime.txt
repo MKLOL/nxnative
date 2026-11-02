@@ -1,0 +1,434 @@
+[dm] [nvn] null device: 743 names, 481 implemented (467 semantic + 14 empty, 342 of them on the large host stack), the other 262 go to the red-reporting stub
+[dm] build: commit not recorded, shader chain e047be1b6829, profile 01003FC01670C000
+[dm] key numbers K18=264 KTLS=265 KTLR=266 KGATE=267
+[dm] main: gates 6 patch_off 0x2390000 keys 264/265/266/267
+[dm] main: base 0x115000000 size 0x23c4000
+[dm] subsdk0: gates 16 patch_off 0x6b0000 keys 264/265/266/267
+[dm] subsdk0: base 0x1173c4000 size 0x71c000
+[dm] sdk: gates 122 patch_off 0xd40000 keys 264/265/266/267
+[dm] sdk: base 0x117ae0000 size 0xdc0000
+[dm] main: undefined weak __rel_dyn_end bound to 0
+[dm] main: undefined weak __rel_dyn_start bound to 0
+[dm] main: undefined weak __rel_plt_end bound to 0
+[dm] main: undefined weak __rel_plt_start bound to 0
+[dm] main: reloc relative=43945 relr=0 abs/glob=34 jump=228
+[dm] subsdk0: undefined weak __rel_dyn_end bound to 0
+[dm] subsdk0: undefined weak __rel_dyn_start bound to 0
+[dm] subsdk0: undefined weak __rel_plt_end bound to 0
+[dm] subsdk0: undefined weak __rel_plt_start bound to 0
+[dm] subsdk0: reloc relative=1667 relr=0 abs/glob=13751 jump=3780
+[dm] sdk: undefined weak __rel_dyn_end bound to 0
+[dm] sdk: undefined weak __rel_dyn_start bound to 0
+[dm] sdk: undefined weak __rel_plt_end bound to 0
+[dm] sdk: undefined weak __rel_plt_start bound to 0
+[dm] sdk: undefined weak nnosGetDefaultUserExceptionStackForApplication bound to 0
+[dm] sdk: silk_rate_levels_iCDF bound to an earlier module's definition (subsdk0)
+[dm] sdk: silk_LTPScales_table_Q14 bound to an earlier module's definition (subsdk0)
+[dm] sdk: silk_pitch_contour_NB_iCDF bound to an earlier module's definition (subsdk0)
+[dm] sdk: silk_Resampler_1_6_COEFS bound to an earlier module's definition (subsdk0)
+[dm] sdk: silk_uniform6_iCDF bound to an earlier module's definition (subsdk0)
+[dm] sdk: silk_LBRR_flags_iCDF_ptr bound to an earlier module's definition (subsdk0)
+[dm] sdk: silk_stereo_only_code_mid_iCDF bound to an earlier module's definition (subsdk0)
+[dm] sdk: _ZTSN2nn2sf4impl6detail22ServiceObjectImplBase2E bound to an earlier module's definition (subsdk0)
+[dm] sdk: undefined weak nnosGetDefaultUserExceptionStackForApplication bound to 0
+[dm] sdk: reloc relative=10558 relr=0 abs/glob=14245 jump=8749 (some bound to an earlier module's definition)
+[dm] sdk: 1119 bound to an earlier module's definition in all
+[dm] force: 262 entries hit, 804 not referenced by this game
+[dm] cheats: <game-root>/rgba4-pr-fixes-validation/13-candidate-01/cheats: no file for build 4B632573CA5C160E
+[dm] sdk: NintendoSDK nnSdk-11_4_3-Release (major 11)
+[dm] DM_CTL: reading key presses and screenshot requests from <game-root>/rgba4-pr-fixes-validation/13-candidate-01/ctl
+[dm] stubs=0
+[dm] main guest thread QoS 0x21 (priority 44)
+[dm] >>> nnosInitialize
+[dm] guest AS 0x7000000000 +0x100000000  heap 0x7030000000 alias 0x7010000000 stack 0x7020000000
+[dm] >>> nninitInitializeSdkModule
+[dm] init takeover: nndiagStartup (no-op)
+[dm] init takeover: oe::Initialize (no-op)
+[dm] init takeover: aoc::Initialize (no-op)
+[dm] init takeover: err::InitializeContextWriterApi (no-op)
+[dm] init takeover: fs::InitializeForApplication (no-op)
+[dm] init takeover: pctl::Initialize (no-op)
+[dm] init takeover: diag::InitializeApplicationAbortObserver (no-op)
+[dm] >>> nninitStartup
+[dm] [mem] heap 3.14 GB (heap region 3.25 GB)
+[dm] main: DT_INIT +0x30 (init_array 54 entries)
+[dm] StandardAllocator::Allocate: allocations ≥ 64 KB are 64 KB aligned (game profile alloc_big_align: memory pool storage, see hle_os.c)
+[dm] subsdk0: DT_INIT +0x30 (init_array 44 entries)
+[dm] sdk: DT_INIT +0x30 (init_array 115 entries)
+[dm] >>> nnMain
+[dm] nv::InitializeGraphics: pool 8.00 MB, recorded (the host's graphics layer allocates its own)
+[dm] [nvn-mtl] window origin: lower left (GL: viewport flipped, winding reversed, present flipped)
+[dm] [nvn] device API 55.15 (SDK 11)
+[dm] [nvn-mtl] window origin: upper left
+[dm] [nvn] window origin upper left (as D3D / Metal)
+[dm] [nvn-mtl] depth mode: near=0, vertex shaders use the main0_z entry
+[dm] [nvn] depth mode near=0 (as D3D / Metal)
+[dm] [msl] host shader libraries: 13, compiled for macosx by Apple metal version 32023.922 (metalfe-32023.922.4)
+[dm] [nvn-mtl] Metal device Apple M5 Max
+[dm] fs RomFS image <control-game-root>/01003FC01670C000_build/extract/v65536/RomFS.img: 7 entries
+[dm] fs mount ROM: → <control-game-root>/01003FC01670C000_build/extract/v65536/RomFS.img (read-only)
+[dm] [nvn] WindowInitialize swap chain 2 textures, interval 1, first 1920x1080 format 0x25
+[dm] [nvn] WindowCrop 0,0 1920x1080
+[dm] init takeover: oe::Initialize (no-op)
+[dm] [nvn-mtl] shader library stamp: game 01003FC01670C000, inputs c50831314b7a
+[dm] [nvn-mtl] uniform read extents: 638 shaders (cb_extent.tsv)
+[dm] [nvn-mtl] shader route B (translated Switch originals): shader map 751 entries (<control-game-root>/01003FC01670C000-work/regress/chain/nvn-e047be1b6829-c50831314b7a-2785f2ea389fda1e/profile/shader_map.tsv), metallib directory <control-game-root>/01003FC01670C000-work/regress/chain/nvn-e047be1b6829-c50831314b7a-2785f2ea389fda1e/b-e047be1b6829
+[dm] [nvn-mtl] pipeline archive <game-root>/rgba4-pr-fixes-validation/13-candidate-01/pso_archive: 0 files (0 of bases without a vertex layout), 0.0 MB, opened in 0.1 ms
+[dm] [nvn-mtl] shader prefetch at program creation: first library dd285934e902ecdd_b loaded in the background (DM_NVN_PREFETCH=0 turns it off)
+[dm] hid supported controller styles 0x3
+[dm] hid supported controller ids 0x10f (bit n: No n+1, bit 8 Handheld, bit 9 Other)
+[dm] audio #0 OpenAudioOut (default) channels 6 real output (call site main+0x3255d4)
+[dm] audio device buffer: 240 frames at 48000 Hz (requested 240, status 0)
+[dm] audio #0 Start (call site main+0x32574c)
+[dm] [nvn] present tick 60 Hz, interval mode game (original semantics) (game profile present_interval; present interval set by the game 1; no window, fixed 60 Hz)
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 2.000 ms) set
+[dm] [nvn-mtl] TBDR optimizations off by default (this game uses bindless textures; DM_NVN_TBDR=1 turns them on)
+[dm] [nvn-mtl] segmented submission: a segment is submitted between passes every 64 draws (DM_NVN_CUT, 0 = off)
+[dm] [nvn-mtl] per-stage program binding: first combined program (vertex e80556c390d8a563_b fragment -)
+[dm] [nvn-mtl] pipeline prewarm list <control-game-root>/01003FC01670C000-work/regress/chain/nvn-e047be1b6829-c50831314b7a-2785f2ea389fda1e/profile/pso_manifest.tsv: 0 lines
+[dm] [nvn-mtl] pipeline prewarm list <game-root>/rgba4-pr-fixes-validation/13-candidate-01/pso_user.tsv: 380 lines
+[dm] [nvn-mtl] new-texture zeroing: on (new Metal textures are undefined; new Switch memory reads 0)
+[dm] [nvn-mtl] pipeline prewarm done: shaders 380 / render pipelines 0 (specialized fragment skipped 0) / compute pipelines 0, background time 45.9 ms; shader keys not in the shader map (another game version) 0
+[dm] [nvn-mtl] pipeline bases so far: 0 compiled, 0 from the archive, 0 reused (0.0 ms for the bases); 0 specializations, 0 pipelines without a base (MTLDevice)
+[dm] [nvn-mtl] vertex conversion of the draw's vertices only: off
+[dm] [nvn-mtl] upload staging blocks: 0 created in total, swapped within a batch 0 times (0 MB of old blocks swapped out); swapped-out blocks still alive now 0, 0 MB, still in the residency set 0; GPU allocated 1749 MB, residency set 15 objects, deferred-release queue 0
+[dm] [nvn-mtl] pipeline archive: 1 new pipeline bases written to 00000.mtl4a (0.0 MB, 19 ms)
+[dm] [nvn-mtl] counter timestamps: one time for the whole submission (profile key gpu_timestamps; DM_NVN_GPU_TS=segment / submission)
+[dm] [nvn-mtl] CPU-written texture ser=849 2048x2048x1 format 0x49 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=850 2048x2048x1 format 0x49 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=851 1024x1024x1 format 0x49 target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn] init 0: 116 functions 12668 calls | DeviceBuilderSetDefaults=1 DeviceBuilderSetFlags=1 DeviceInitialize=1 DeviceGetProcAddress=1046 DeviceGetInteger=848 DeviceGetTextureHandle=1 DeviceSetWindowOriginMode=1 DeviceSetDepthMode=1 QueueBuilderSetDevice=1 QueueBuilderSetDefaults=1 QueueBuilderSetCommandMemorySize=1 QueueBuilderSetComputeMemorySize=1 QueueBuilderGetQueueMemorySize=1 QueueBuilderSetQueueMemory=1 QueueBuilderSetCommandFlushThreshold=1 QueueInitialize=1 QueueSubmitCommands=1 QueueFlush=1 QueuePresentTexture=1 WindowBuilderSetDevice=1 WindowBuilderSetDefaults=1 WindowBuilderSetNativeWindow=1 WindowBuilderSetTextures=1 WindowInitialize=1 WindowAcquireTexture=1 WindowSetCrop=2 ProgramInitialize=838 ProgramSetShaders=838 MemoryPoolBuilderSetDevice=6 MemoryPoolBuilderSetDefaults=6 MemoryPoolBuilderSetStorage=6 MemoryPoolBuilderSetFlags=6 MemoryPoolInitialize=6 MemoryPoolFlushMappedRange=2 MemoryPoolGetBufferAddress=845 TexturePoolInitialize=1 TexturePoolRegisterTexture=7 SamplerPoolInitialize=1 SamplerPoolRegisterSampler=18 BufferBuilderSetDevice=8 BufferBuilderSetDefaults=8 BufferBuilderSetStorage=8 BufferInitialize=8 BufferMap=14 BufferGetAddress=120 TextureBuilderSetDevice=10 TextureBuilderSetDefaults=10 TextureBuilderSetFlags=7 TextureBuilderSetTarget=10 TextureBuilderSetDepth=3 TextureBuilderSetSize2D=10 TextureBuilderSetLevels=3 TextureBuilderSetFormat=10 TextureBuilderGetStorageSize=10 TextureBuilderGetStorageAlignment=10 TextureBuilderSetStorage=10 TextureBuilderSetPackagedTextureData=3 TextureViewSetDefaults=4 TextureViewSetFormat=4 TextureViewSetTarget=4 TextureInitialize=10 TextureSetDebugLabel=7 SamplerBuilderSetDevice=18 SamplerBuilderSetDefaults=18 SamplerBuilderSetMinMagFilter=18 SamplerBuilderSetWrapMode=18 SamplerInitialize=18 BlendStateSetDefaults=1 BlendStateSetBlendTarget=1 ColorStateSetDefaults=1 ColorStateSetBlendEnable=2 ChannelMaskStateSetDefaults=1 MultisampleStateSetDefaults=1 PolygonStateSetDefaults=1 PolygonStateSetCullFace=1 PolygonStateSetPolygonMode=1 DepthStencilStateSetDefaults=1 DepthStencilStateSetDepthTestEnable=1 VertexAttribStateSetDefaults=2368 VertexAttribStateSetFormat=2368 VertexAttribStateSetStreamIndex=2368 VertexStreamStateSetDefaults=33 VertexStreamStateSetStride=1 CommandBufferInitialize=2 CommandBufferSetMemoryCallback=2 CommandBufferSetMemoryCallbackData=2 CommandBufferAddCommandMemory=2 CommandBufferAddControlMemory=2 CommandBufferBeginRecording=1 CommandBufferEndRecording=1 CommandBufferBindBlendState=1 CommandBufferBindColorState=1 CommandBufferBindPolygonState=1 CommandBufferBindDepthStencilState=1 CommandBufferBindVertexAttribState=1 CommandBufferBindVertexStreamState=1 CommandBufferBindProgram=2 CommandBufferBindVertexBuffer=1 CommandBufferBindUniformBuffer=238 CommandBufferBindTexture=1 CommandBufferDrawElements=1 CommandBufferClearColor=1 CommandBufferClearDepthStencil=1 CommandBufferSetViewport=120 CommandBufferSetScissor=120 CommandBufferReportCounter=2 CommandBufferResetCounter=1 CommandBufferSetRenderTargets=121 CommandBufferBarrier=1 CommandBufferWaitSync=1 CommandBufferSetTexturePool=1 CommandBufferSetSamplerPool=1 CommandBufferInsertDebugMarker=1 SyncInitialize=2 QueueFenceSync=1 SyncWait=3
+[dm] [nvn] frame 1: 47 functions 785 calls | DeviceGetTextureHandle=1 DeviceGetTimestampInNanoseconds=2 QueueSubmitCommands=1 QueueFlush=1 QueuePresentTexture=1 WindowAcquireTexture=1 WindowSetCrop=1 MemoryPoolFlushMappedRange=2 MemoryPoolInvalidateMappedRange=2 MemoryPoolGetBufferAddress=1 BufferGetAddress=120 BlendStateSetBlendTarget=1 ColorStateSetBlendEnable=2 PolygonStateSetCullFace=1 PolygonStateSetPolygonMode=1 DepthStencilStateSetDepthTestEnable=1 VertexStreamStateSetDefaults=17 VertexStreamStateSetStride=1 CommandBufferAddCommandMemory=1 CommandBufferAddControlMemory=1 CommandBufferBeginRecording=1 CommandBufferEndRecording=1 CommandBufferBindBlendState=1 CommandBufferBindColorState=1 CommandBufferBindPolygonState=1 CommandBufferBindDepthStencilState=1 CommandBufferBindVertexAttribState=1 CommandBufferBindVertexStreamState=1 CommandBufferBindProgram=2 CommandBufferBindVertexBuffer=1 CommandBufferBindUniformBuffer=238 CommandBufferBindTexture=1 CommandBufferDrawElements=1 CommandBufferClearColor=1 CommandBufferClearDepthStencil=1 CommandBufferSetViewport=120 CommandBufferSetScissor=120 CommandBufferReportCounter=2 CommandBufferResetCounter=1 CommandBufferSetRenderTargets=121 CommandBufferBarrier=1 CommandBufferWaitSync=1 CommandBufferSetTexturePool=1 CommandBufferSetSamplerPool=1 CommandBufferInsertDebugMarker=1 QueueFenceSync=1 SyncWait=3
+[dm] [nvn-mtl] game SyncWaits wake on the GPU's signal of the fence (DM_NVN_FAST_WAKE)
+[dm] [nvn] frame 2: 47 functions 784 calls | DeviceGetTextureHandle=1 DeviceGetTimestampInNanoseconds=2 QueueSubmitCommands=1 QueueFlush=1 QueuePresentTexture=1 WindowAcquireTexture=1 WindowSetCrop=1 MemoryPoolFlushMappedRange=2 MemoryPoolInvalidateMappedRange=2 MemoryPoolGetBufferAddress=1 BufferGetAddress=120 BlendStateSetBlendTarget=1 ColorStateSetBlendEnable=2 PolygonStateSetCullFace=1 PolygonStateSetPolygonMode=1 DepthStencilStateSetDepthTestEnable=1 VertexStreamStateSetDefaults=17 VertexStreamStateSetStride=1 CommandBufferAddCommandMemory=1 CommandBufferAddControlMemory=1 CommandBufferBeginRecording=1 CommandBufferEndRecording=1 CommandBufferBindBlendState=1 CommandBufferBindColorState=1 CommandBufferBindPolygonState=1 CommandBufferBindDepthStencilState=1 CommandBufferBindVertexAttribState=1 CommandBufferBindVertexStreamState=1 CommandBufferBindProgram=2 CommandBufferBindVertexBuffer=1 CommandBufferBindUniformBuffer=238 CommandBufferBindTexture=1 CommandBufferDrawElements=1 CommandBufferClearColor=1 CommandBufferClearDepthStencil=1 CommandBufferSetViewport=120 CommandBufferSetScissor=120 CommandBufferReportCounter=2 CommandBufferResetCounter=1 CommandBufferSetRenderTargets=121 CommandBufferBarrier=1 CommandBufferWaitSync=1 CommandBufferSetTexturePool=1 CommandBufferSetSamplerPool=1 CommandBufferInsertDebugMarker=1 QueueFenceSync=1 SyncWait=2
+[dm] [nvn] frame 3: 47 functions 784 calls | DeviceGetTextureHandle=1 DeviceGetTimestampInNanoseconds=2 QueueSubmitCommands=1 QueueFlush=1 QueuePresentTexture=1 WindowAcquireTexture=1 WindowSetCrop=1 MemoryPoolFlushMappedRange=2 MemoryPoolInvalidateMappedRange=2 MemoryPoolGetBufferAddress=1 BufferGetAddress=120 BlendStateSetBlendTarget=1 ColorStateSetBlendEnable=2 PolygonStateSetCullFace=1 PolygonStateSetPolygonMode=1 DepthStencilStateSetDepthTestEnable=1 VertexStreamStateSetDefaults=17 VertexStreamStateSetStride=1 CommandBufferAddCommandMemory=1 CommandBufferAddControlMemory=1 CommandBufferBeginRecording=1 CommandBufferEndRecording=1 CommandBufferBindBlendState=1 CommandBufferBindColorState=1 CommandBufferBindPolygonState=1 CommandBufferBindDepthStencilState=1 CommandBufferBindVertexAttribState=1 CommandBufferBindVertexStreamState=1 CommandBufferBindProgram=2 CommandBufferBindVertexBuffer=1 CommandBufferBindUniformBuffer=238 CommandBufferBindTexture=1 CommandBufferDrawElements=1 CommandBufferClearColor=1 CommandBufferClearDepthStencil=1 CommandBufferSetViewport=120 CommandBufferSetScissor=120 CommandBufferReportCounter=2 CommandBufferResetCounter=1 CommandBufferSetRenderTargets=121 CommandBufferBarrier=1 CommandBufferWaitSync=1 CommandBufferSetTexturePool=1 CommandBufferSetSamplerPool=1 CommandBufferInsertDebugMarker=1 QueueFenceSync=1 SyncWait=2
+[dm] [nvn-mtl] CPU-written texture ser=852 2048x2048x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=853 1024x512x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=854 2048x2048x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=855 2048x1024x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=856 1024x1024x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=857 2048x2048x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=858 1024x512x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=859 2048x512x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=860 256x256x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=861 64x64x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=862 64x64x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=863 64x64x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] [nvn-mtl] CPU-written texture ser=864 64x64x1 format 0x4d target 1 levels 1: uploaded / re-uploaded like a swizzled texture
+[dm] fs mount SAVE: → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/save.work (transactional save: work directory, swapped in atomically on Commit)
+[dm] [longframe] frame 30 (1.28 s) whole frame 27.5 ms, submit+present 0.1 ms, GPU 1.8 ms; new pipelines 0 + shader libraries 0, 0.0 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] [nvn-mtl] parallel precompile: 1551 draws left in this submission, 2 pipelines handed to the background
+[dm] [nvn-mtl] same-target continuation: first case pass 92
+[dm] [nvn-mtl] segmented submission: first segment submitted at frame 41 pass 92
+[dm] [longframe] frame 34 (1.35 s) whole frame 26.8 ms, submit+present 8.6 ms, GPU 0.3 ms; new pipelines 1 + shader libraries 0, 4.7 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] [longframe] frame 41 (1.53 s) whole frame 77.7 ms, submit+present 61.0 ms, GPU 0.8 ms; new pipelines 7 + shader libraries 0, 39.0 ms in all; texture uploads 2 first + 0 re-uploads, 8.0 MB / 20.2 ms; draws with a hybrid pipeline 0
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 15.000 ms) set
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 3.756 ms) set
+[dm] DM_CTL: screenshot of the next frame → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/01-start.png
+[dm] [nvn-mtl] screenshot 1920x1080 format 70 → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/01-start.png ok
+[dm] [longframe] frame 250 (5.17 s) whole frame 28.2 ms, submit+present 0.7 ms, GPU 1.4 ms; new pipelines 0 + shader libraries 0, 0.0 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] [nvn-mtl] memory up to frame 300: resident 2069 MB, GPU allocated 1910 MB, deferred-release queue 0, residency set 25, serial objects 29, memory pools 6 (resident 4; peak 6 / tracking table capacity 262144; freed but alive 0, 0 MB), shared textures 7 (0 of them unreferenced; evicted with pools 0, on storage takeover 0 in total), texture re-uploads 0 in total, per-frame arena blocks created 1 in total, finalized textures still referenced 0 (small table, 0 put in total); headroom to the system memory limit none
+[dm] [nvn-mtl] texture views by texture (vc_get): 2 textures hold cached views; 0 views reused, 2 made in total; texture buffers bound as 2D rows for wrapped 1D fetches 0 times, 0 made, 0 failed, 0 copied into aligned rows (0 MB) (tbuf_as_2d); texture type mismatches no view bridges 0 in total (tex_mis_note)
+[dm] [nvn] timing up to frame 300: frame time p50 17.92 / p95 18.32 / max 77.67 ms (299 frames); frame work p50 17.90 / p95 18.30 / max 77.64 ms (299 frames); NVN submit+present p50 0.63 / p95 1.38 / max 60.96 ms (299 frames); GPU p50 0.76 / p95 2.40 / max 3.13 ms (292 frames);
+[dm] [nvn] pipelines up to frame 300: on the submit thread pipelines 90.9 ms, shader libraries 0.0 ms, predictions 5 / 5.2 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 19 / 0.4 ms, bases compiled 10 / 292.5 ms; draws with a hybrid pipeline 0 (3 pulling pipelines made, 6 misses with no pulling base ready); background builds kicked 2, done 2, made by the draw 0, in flight 0; draws that waited: pulling base not made yet 10 / 85.7 ms,
+[dm] [nvn] frame interval up to frame 300: >16.7ms 203 / 299 frames, p99 27.51 ms
+[dm] [nvn] thread policy: main thread real-time computation 3.76 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 6 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 2, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 0; write-protection faults 0, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 233
+[dm] [nvn] frame 300: 49 functions 10233 calls
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.975 ms) set
+[dm] DM_CTL: press 0x1 (hold 0.20 s)
+[dm] [nvn-mtl] parallel precompile: 354 draws left in this submission, 2 pipelines handed to the background
+[dm] [nvn-mtl] upload staging blocks: 4 created in total, swapped within a batch 1 times (4 MB of old blocks swapped out); swapped-out blocks still alive now 0, 0 MB, still in the residency set 0; GPU allocated 1956 MB, residency set 31 objects, deferred-release queue 0
+[dm] [longframe] frame 438 (8.40 s) whole frame 42.4 ms, submit+present 25.9 ms, GPU 0.6 ms; new pipelines 3 + shader libraries 0, 22.9 ms in all; texture uploads 5 first + 0 re-uploads, 11.0 MB / 0.4 ms; draws with a hybrid pipeline 0
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 4.454 ms) set
+[dm] audio #0 device callbacks 2000: 240–240 frames each, 2.7 blocks queued on average at callback; in these 2000, 0 underruns, 0.0 ms zero-padded
+[dm] [nvn-mtl] pipeline archive: 13 new pipeline bases written to 00001.mtl4a (0.4 MB, 31 ms)
+[dm] [nvn-mtl] memory up to frame 600: resident 2000 MB, GPU allocated 1957 MB, deferred-release queue 0, residency set 32, serial objects 39, memory pools 6 (resident 4; peak 6 / tracking table capacity 262144; freed but alive 0, 0 MB), shared textures 7 (0 of them unreferenced; evicted with pools 0, on storage takeover 0 in total), texture re-uploads 0 in total, per-frame arena blocks created 1 in total, finalized textures still referenced 0 (small table, 0 put in total); headroom to the system memory limit none
+[dm] [nvn-mtl] texture views by texture (vc_get): 2 textures hold cached views; 0 views reused, 2 made in total; texture buffers bound as 2D rows for wrapped 1D fetches 0 times, 0 made, 0 failed, 0 copied into aligned rows (0 MB) (tbuf_as_2d); texture type mismatches no view bridges 0 in total (tex_mis_note)
+[dm] [nvn] timing up to frame 600: frame time p50 16.74 / p95 18.36 / max 42.37 ms (300 frames); frame work p50 16.67 / p95 18.31 / max 42.28 ms (300 frames); NVN submit+present p50 0.83 / p95 1.30 / max 25.88 ms (300 frames); GPU p50 0.75 / p95 2.10 / max 2.49 ms (300 frames);
+[dm] [nvn] pipelines up to frame 600: on the submit thread pipelines 22.9 ms, shader libraries 0.0 ms, predictions 1 / 0.5 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 5 / 0.1 ms, bases compiled 4 / 186.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 3 misses with no pulling base ready); background builds kicked 2, done 2, made by the draw 0, in flight 0; draws that waited: pulling base not made yet 2 / 22.4 ms,
+[dm] [nvn] frame interval up to frame 600: >16.7ms 160 / 300 frames, p99 18.67 ms
+[dm] [nvn] power up to frame 600: CPU energy 0.06 W, 1.0 mJ per frame (58.4 fps); CPU 14% (100 = one core), 17% of it on performance cores; wakeups 227/s (out of platform idle 78); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 600: commits 2 / 1.4 ms, added 7, 47 MB (line 2257: 1, 32 MB, line 2516: 5, 11 MB, line 2245: 1, 4 MB), removed 0; draw-pass entry barriers full 3405 / saved 0; split submits 1327 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 1118, landed in passes of their own 607; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 933, a dispatch 0, a read of its writes 0, depth written before it 0, another op 1306); attachments per frame load 62 MB / store 142 MB, load-all store-all passes 4, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 600: CPU by guest priority ≤44 95 / 45–59 17 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 65 ms/s, 0x1006 'CRI Server Manager' priority 36 20 ms/s, 0x1005 'CRI FS Data Decompression 0' priority 52 17 ms/s
+[dm] [nvn] vertex bindings up to frame 600: per frame address lookups 665 / reused 1959, vertex table writes 689 / skipped 2573, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 600: 13155 instructions per draw, submit per frame 4.20 M instructions / CPU 0.766 ms, 319 draws per frame
+[dm] [nvn] translation detail up to frame 600: submit per frame 1.16 M cycles (0.28 cycles per instruction), CPU 0.766 ms of which kernel 0.025 ms, wall clock 0.839 ms; mean clock 1.52 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 4.45 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 4.45 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 6 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 7, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 0; write-protection faults 0, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 308
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 2.615 ms) set
+[dm] [nvn] frame 600: 49 functions 19879 calls
+[dm] DM_CTL: screenshot of the next frame → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/02-title.png
+[dm] [nvn-mtl] screenshot 1920x1080 format 70 → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/02-title.png ok
+[dm] [longframe] frame 717 (13.21 s) whole frame 71.5 ms, submit+present 0.4 ms, GPU 1.1 ms; new pipelines 0 + shader libraries 0, 0.0 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] DM_CTL: press 0x1 (hold 0.20 s)
+[dm] [nvn-mtl] parallel precompile: 246 draws left in this submission, 2 pipelines handed to the background
+[dm] [longframe] frame 829 (15.13 s) whole frame 33.9 ms, submit+present 16.2 ms, GPU 0.7 ms; new pipelines 2 + shader libraries 0, 15.7 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] [nvn] timing up to frame 900: frame time p50 16.95 / p95 18.35 / max 71.53 ms (300 frames); frame work p50 16.88 / p95 18.33 / max 71.52 ms (300 frames); NVN submit+present p50 0.90 / p95 1.30 / max 16.18 ms (300 frames); GPU p50 0.73 / p95 1.79 / max 2.55 ms (300 frames);
+[dm] [nvn] pipelines up to frame 900: on the submit thread pipelines 15.7 ms, shader libraries 0.0 ms, predictions 1 / 0.3 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 10 / 0.1 ms, bases compiled 2 / 96.9 ms; draws with a hybrid pipeline 0 (6 pulling pipelines made, 3 misses with no pulling base ready); background builds kicked 2, done 2, made by the draw 0, in flight 0; draws that waited: pulling base not made yet 2 / 15.4 ms,
+[dm] [nvn] frame interval up to frame 900: >16.7ms 170 / 300 frames, p99 18.85 ms
+[dm] [nvn] power up to frame 900: CPU energy 0.17 W, 2.9 mJ per frame (58.0 fps); CPU 14% (100 = one core), 27% of it on performance cores; wakeups 224/s (out of platform idle 57); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 900: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 1958 / saved 0; split submits 829 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 300; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 529, a dispatch 0, a read of its writes 0, depth written before it 0, another op 829); attachments per frame load 72 MB / store 151 MB, load-all store-all passes 5, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 900: CPU by guest priority ≤44 99 / 45–59 0 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 72 ms/s, 0x1006 'CRI Server Manager' priority 36 19 ms/s, 0x1001 'main thread' priority 44 8 ms/s
+[dm] [nvn] vertex bindings up to frame 900: per frame address lookups 1052 / reused 3151, vertex table writes 1090 / skipped 4047, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 900: 12409 instructions per draw, submit per frame 5.79 M instructions / CPU 0.855 ms, 467 draws per frame
+[dm] [nvn] translation detail up to frame 900: submit per frame 1.50 M cycles (0.26 cycles per instruction), CPU 0.855 ms of which kernel 0.019 ms, wall clock 0.906 ms; mean clock 1.75 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 2.62 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 2.62 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 6 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 7, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 0; write-protection faults 0, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 308
+[dm] [nvn] frame 900: 49 functions 13869 calls
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 2.131 ms) set
+[dm] audio #0 device callbacks 4000: 240–240 frames each, 2.7 blocks queued on average at callback; in these 2000, 0 underruns, 0.0 ms zero-padded
+[dm] [nvn] timing up to frame 1200: frame time p50 16.75 / p95 18.24 / max 18.62 ms (300 frames); frame work p50 16.69 / p95 18.18 / max 18.56 ms (300 frames); NVN submit+present p50 0.93 / p95 1.01 / max 1.04 ms (300 frames); GPU p50 0.68 / p95 2.38 / max 2.48 ms (300 frames);
+[dm] [nvn] pipelines up to frame 1200: on the submit thread pipelines 0.0 ms, shader libraries 0.0 ms, predictions 0 / 0.0 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 0 / 0.0 ms, bases compiled 0 / 0.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 0 misses with no pulling base ready); background builds kicked 0, done 0, made by the draw 0, in flight 0; draws that waited:
+[dm] [nvn] frame interval up to frame 1200: >16.7ms 158 / 300 frames, p99 18.43 ms
+[dm] [nvn] power up to frame 1200: CPU energy 0.04 W, 0.7 mJ per frame (58.7 fps); CPU 13% (100 = one core), 6% of it on performance cores; wakeups 224/s (out of platform idle 74); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 1200: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 1500 / saved 0; split submits 600 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 300; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 300, a dispatch 0, a read of its writes 0, depth written before it 0, another op 600); attachments per frame load 47 MB / store 127 MB, load-all store-all passes 3, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 1200: CPU by guest priority ≤44 106 / 45–59 0 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 74 ms/s, 0x1006 'CRI Server Manager' priority 36 23 ms/s, 0x1001 'main thread' priority 44 9 ms/s
+[dm] [nvn] vertex bindings up to frame 1200: per frame address lookups 977 / reused 1859, vertex table writes 1004 / skipped 2462, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 1200: 13397 instructions per draw, submit per frame 4.22 M instructions / CPU 0.850 ms, 315 draws per frame
+[dm] [nvn] translation detail up to frame 1200: submit per frame 1.24 M cycles (0.29 cycles per instruction), CPU 0.850 ms of which kernel 0.021 ms, wall clock 0.849 ms; mean clock 1.46 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 2.13 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 2.13 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 6 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 7, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 0; write-protection faults 0, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 308
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.801 ms) set
+[dm] [nvn] frame 1200: 49 functions 13851 calls
+[dm] DM_CTL: press 0x1 (hold 0.20 s)
+[dm] [nvn-mtl] parallel precompile: 80 draws left in this submission, 2 pipelines handed to the background
+[dm] [nvn-mtl] upload staging blocks: 5 created in total, swapped within a batch 2 times (8 MB of old blocks swapped out); swapped-out blocks still alive now 0, 0 MB, still in the residency set 0; GPU allocated 1995 MB, residency set 37 objects, deferred-release queue 0
+[dm] [longframe] frame 1240 (22.14 s) whole frame 46.5 ms, submit+present 28.2 ms, GPU 2.8 ms; new pipelines 5 + shader libraries 0, 25.8 ms in all; texture uploads 4 first + 0 re-uploads, 11.0 MB / 0.2 ms; draws with a hybrid pipeline 0
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 3.219 ms) set
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 2.048 ms) set
+[dm] [nvn-mtl] pipeline archive: 6 new pipeline bases written to 00002.mtl4a (0.2 MB, 22 ms)
+[dm] [nvn-mtl] memory up to frame 1500: resident 2094 MB, GPU allocated 2012 MB, deferred-release queue 0, residency set 39, serial objects 61, memory pools 6 (resident 4; peak 6 / tracking table capacity 262144; freed but alive 0, 0 MB), shared textures 9 (0 of them unreferenced; evicted with pools 0, on storage takeover 0 in total), texture re-uploads 0 in total, per-frame arena blocks created 1 in total, finalized textures still referenced 0 (small table, 0 put in total); headroom to the system memory limit none
+[dm] [nvn-mtl] texture views by texture (vc_get): 2 textures hold cached views; 0 views reused, 2 made in total; texture buffers bound as 2D rows for wrapped 1D fetches 0 times, 0 made, 0 failed, 0 copied into aligned rows (0 MB) (tbuf_as_2d); texture type mismatches no view bridges 0 in total (tex_mis_note)
+[dm] [nvn] timing up to frame 1500: frame time p50 16.78 / p95 18.34 / max 46.52 ms (300 frames); frame work p50 16.70 / p95 18.30 / max 46.48 ms (300 frames); NVN submit+present p50 1.05 / p95 1.20 / max 28.17 ms (300 frames); GPU p50 0.99 / p95 2.65 / max 2.80 ms (300 frames);
+[dm] [nvn] pipelines up to frame 1500: on the submit thread pipelines 25.8 ms, shader libraries 0.0 ms, predictions 1 / 0.1 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 8 / 0.1 ms, bases compiled 4 / 94.9 ms; draws with a hybrid pipeline 0 (1 pulling pipelines made, 4 misses with no pulling base ready); background builds kicked 2, done 2, made by the draw 0, in flight 0; draws that waited: pulling base not made yet 4 / 25.6 ms,
+[dm] [nvn] frame interval up to frame 1500: >16.7ms 165 / 300 frames, p99 18.76 ms
+[dm] [nvn] power up to frame 1500: CPU energy 0.07 W, 1.3 mJ per frame (58.3 fps); CPU 15% (100 = one core), 17% of it on performance cores; wakeups 224/s (out of platform idle 55); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 1500: commits 3 / 1.5 ms, added 8, 1683 MB (line 2986: 2, 1624 MB, line 2257: 1, 32 MB, line 2245: 1, 16 MB, line 2516: 4, 11 MB), removed 1; draw-pass entry barriers full 2592 / saved 0; split submits 366 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 300; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 40, a dispatch 0, a read of its writes 0, depth written before it 0, another op 1952); attachments per frame load 105 MB / store 185 MB, load-all store-all passes 7, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 1500: CPU by guest priority ≤44 118 / 45–59 0 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 77 ms/s, 0x1006 'CRI Server Manager' priority 36 21 ms/s, 0x1001 'main thread' priority 44 19 ms/s
+[dm] [nvn] vertex bindings up to frame 1500: per frame address lookups 939 / reused 1835, vertex table writes 1013 / skipped 2378, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 1500: 15305 instructions per draw, submit per frame 4.72 M instructions / CPU 0.923 ms, 308 draws per frame
+[dm] [nvn] translation detail up to frame 1500: submit per frame 1.44 M cycles (0.31 cycles per instruction), CPU 0.923 ms of which kernel 0.024 ms, wall clock 1.007 ms; mean clock 1.56 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 2.05 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 2.05 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 6 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 11, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 0; write-protection faults 0, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 308
+[dm] [nvn] frame 1500: 49 functions 13025 calls
+[dm] DM_CTL: screenshot of the next frame → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/03-load-menu.png
+[dm] [nvn-mtl] screenshot 1920x1080 format 70 → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/03-load-menu.png ok
+[dm] [longframe] frame 1651 (29.23 s) whole frame 64.6 ms, submit+present 0.3 ms, GPU 1.0 ms; new pipelines 0 + shader libraries 0, 0.0 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] audio #0 device callbacks 6000: 240–240 frames each, 2.7 blocks queued on average at callback; in these 2000, 0 underruns, 0.0 ms zero-padded
+[dm] [nvn] timing up to frame 1800: frame time p50 16.97 / p95 18.42 / max 64.64 ms (300 frames); frame work p50 16.88 / p95 18.37 / max 64.62 ms (300 frames); NVN submit+present p50 1.07 / p95 1.18 / max 1.22 ms (300 frames); GPU p50 0.99 / p95 2.63 / max 2.73 ms (300 frames);
+[dm] [nvn] pipelines up to frame 1800: on the submit thread pipelines 0.0 ms, shader libraries 0.0 ms, predictions 0 / 0.0 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 0 / 0.0 ms, bases compiled 0 / 0.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 0 misses with no pulling base ready); background builds kicked 0, done 0, made by the draw 0, in flight 0; draws that waited:
+[dm] [nvn] frame interval up to frame 1800: >16.7ms 189 / 300 frames, p99 18.81 ms
+[dm] [nvn] power up to frame 1800: CPU energy 0.12 W, 2.0 mJ per frame (57.9 fps); CPU 15% (100 = one core), 17% of it on performance cores; wakeups 220/s (out of platform idle 82); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 1800: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 2700 / saved 0; split submits 300 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 300; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 0, a dispatch 0, a read of its writes 0, depth written before it 0, another op 2100); attachments per frame load 111 MB / store 191 MB, load-all store-all passes 7, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 1800: CPU by guest priority ≤44 112 / 45–59 0 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 78 ms/s, 0x1006 'CRI Server Manager' priority 36 22 ms/s, 0x1001 'main thread' priority 44 13 ms/s
+[dm] [nvn] vertex bindings up to frame 1800: per frame address lookups 925 / reused 1804, vertex table writes 1005 / skipped 2330, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 1800: 15352 instructions per draw, submit per frame 4.66 M instructions / CPU 0.945 ms, 303 draws per frame
+[dm] [nvn] translation detail up to frame 1800: submit per frame 1.43 M cycles (0.31 cycles per instruction), CPU 0.945 ms of which kernel 0.018 ms, wall clock 0.944 ms; mean clock 1.51 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 2.05 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 2.05 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 6 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 11, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 0; write-protection faults 0, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 308
+[dm] [nvn] frame 1800: 49 functions 12995 calls
+[dm] DM_CTL: press 0x1 (hold 0.20 s)
+[dm] [nvn-mtl] upload staging blocks (settled): 6 created in total, swapped within a batch 2 times (8 MB of old blocks swapped out); swapped-out blocks still alive now 0, 0 MB, still in the residency set 0; GPU allocated 2012 MB, residency set 40 objects, deferred-release queue 0
+[dm] [nvn-mtl] parallel precompile: 346 draws left in this submission, 2 pipelines handed to the background
+[dm] [movie] decoder 0x7031210c40: type 1 output 4 mode 1 priority 23
+[dm] [movie] RegisterClientEvents: 0x70c707c948 0x70c707c970 0x70c707c998 0x70c707c9c0
+[dm] [movie] Configure: MediaData width 1024 height 576
+[dm] [movie] Start
+[dm] [movie] AcquireInputBufferIndex → 0 index 0 left 3
+[dm] [movie] AcquireInputBufferIndex → 0 index 1 left 2
+[dm] [movie] AcquireInputBufferIndex → 0 index 2 left 1
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] SendInputBufferForDecode index 0 offset 0 length 8141 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] GetOutputFormat
+[dm] [movie] AVC: VideoToolbox decoding 1024×576, profile 100, reorder depth 0
+[dm] [movie] AcquireInputBufferIndex → 0 index 0 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 0 time 0 flags 0 left 0
+[dm] [movie] SendInputBufferForDecode index 1 offset 0 length 7348 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] GetOutputBufferSize → 884736 (1024×576)
+[dm] [movie] AcquireInputBufferIndex → 0 index 1 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 0 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 0
+[dm] [movie] release output index 0 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 2 offset 0 length 7651 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 2 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 0 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 8886 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 0 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 0
+[dm] [movie] release output index 0 (0 packets queued)
+[dm] [nvn-mtl] parallel precompile: 347 draws left in this submission, 2 pipelines handed to the background
+[dm] [movie] SendInputBufferForDecode index 0 offset 0 length 7039 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] AcquireOutputBufferIndex → index 0 time 0 flags 0 left 0
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 1 offset 0 length 9836 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 1 left 0
+[dm] [movie] GetOutputBuffer index 0 → 884736 bytes
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBufferFormat index 0
+[dm] [movie] release output index 0 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 2 offset 0 length 10172 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 2 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 0 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [longframe] frame 2020 (35.79 s) whole frame 267.0 ms, submit+present 248.8 ms, GPU 3.5 ms; new pipelines 7 + shader libraries 0, 246.9 ms in all; texture uploads 5 first + 0 re-uploads, 2.5 MB / 0.3 ms; draws with a hybrid pipeline 0
+[dm] [longframe] frame 2021 (35.82 s) whole frame 32.5 ms, submit+present 27.3 ms, GPU 2.7 ms; new pipelines 4 + shader libraries 0, 26.4 ms in all; texture uploads 2 first + 0 re-uploads, 6.0 MB / 0.1 ms; draws with a hybrid pipeline 0
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 11095 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 0 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 0
+[dm] [movie] release output index 0 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 0 offset 0 length 7526 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 0 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 1 offset 0 length 8598 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 0 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 0
+[dm] [movie] release output index 0 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 2 offset 0 length 10509 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 0 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 10741 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 0 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 0
+[dm] [movie] release output index 0 (0 packets queued)
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 4.942 ms) set
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 10344 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 5494 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [nvn-mtl] memory up to frame 2100: resident 2260 MB, GPU allocated 2015 MB, deferred-release queue 0, residency set 50, serial objects 120, memory pools 6 (resident 4; peak 6 / tracking table capacity 262144; freed but alive 0, 0 MB), shared textures 19 (0 of them unreferenced; evicted with pools 0, on storage takeover 0 in total), texture re-uploads 0 in total, per-frame arena blocks created 1 in total, finalized textures still referenced 0 (small table, 0 put in total); headroom to the system memory limit none
+[dm] [nvn-mtl] texture views by texture (vc_get): 9 textures hold cached views; 0 views reused, 9 made in total; texture buffers bound as 2D rows for wrapped 1D fetches 0 times, 0 made, 0 failed, 0 copied into aligned rows (0 MB) (tbuf_as_2d); texture type mismatches no view bridges 0 in total (tex_mis_note)
+[dm] [nvn] timing up to frame 2100: frame time p50 16.87 / p95 18.36 / max 266.99 ms (300 frames); frame work p50 16.77 / p95 18.31 / max 266.91 ms (300 frames); NVN submit+present p50 1.03 / p95 1.19 / max 248.78 ms (300 frames); GPU p50 1.00 / p95 2.73 / max 4.24 ms (300 frames);
+[dm] [nvn] pipelines up to frame 2100: on the submit thread pipelines 273.3 ms, shader libraries 0.0 ms, predictions 2 / 1.1 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 20 / 0.4 ms, bases compiled 18 / 713.4 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 13 misses with no pulling base ready); background builds kicked 4, done 4, made by the draw 0, in flight 0; draws that waited: pulling base not made yet 11 / 272.2 ms,
+[dm] [nvn] frame interval up to frame 2100: >16.7ms 169 / 300 frames, p99 18.70 ms
+[dm] [nvn] power up to frame 2100: CPU energy 0.17 W, 3.0 mJ per frame (55.8 fps); CPU 17% (100 = one core), 29% of it on performance cores; wakeups 512/s (out of platform idle 123); GPU 0.0 ms/s; thermal -1; top yielders: 0x1001 'main thread' 1 times (back-off sleeps 0)
+[dm] [nvn] residency set up to frame 2100: commits 5 / 0.6 ms, added 19, 4085 MB (line 2986: 5, 4060 MB, line 2981: 5, 9 MB, line 2516: 8, 9 MB, line 2245: 1, 8 MB), removed 8; draw-pass entry barriers full 2899 / saved 0; split submits 311 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 221; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 5, a dispatch 0, a read of its writes 0, depth written before it 0, another op 2294); attachments per frame load 104 MB / store 184 MB, load-all store-all passes 8, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 2100: CPU by guest priority ≤44 107 / 45–59 33 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 70 ms/s, 0x1005 'CRI FS Data Decompression 0' priority 52 30 ms/s, 0x1006 'CRI Server Manager' priority 36 25 ms/s
+[dm] [nvn] vertex bindings up to frame 2100: per frame address lookups 750 / reused 1576, vertex table writes 822 / skipped 2020, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 2100: 16654 instructions per draw, submit per frame 4.30 M instructions / CPU 0.892 ms, 258 draws per frame
+[dm] [nvn] translation detail up to frame 2100: submit per frame 1.40 M cycles (0.32 cycles per instruction), CPU 0.892 ms of which kernel 0.023 ms, wall clock 1.793 ms; mean clock 1.57 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 4.94 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 4.94 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 8 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 19, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 19; write-protection faults 19, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 303
+[dm] [nvn] frame 2100: 49 functions 4558 calls
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 3208 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.748 ms) set
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 5462 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.413 ms) set
+[dm] audio #0 device callbacks 8000: 240–240 frames each, 2.7 blocks queued on average at callback; in these 2000, 0 underruns, 0.0 ms zero-padded
+[dm] [nvn] timing up to frame 2400: frame time p50 16.65 / p95 18.31 / max 18.58 ms (300 frames); frame work p50 16.57 / p95 18.26 / max 18.49 ms (300 frames); NVN submit+present p50 0.75 / p95 0.85 / max 0.88 ms (300 frames); GPU p50 2.41 / p95 4.06 / max 4.12 ms (300 frames);
+[dm] [nvn] pipelines up to frame 2400: on the submit thread pipelines 0.0 ms, shader libraries 0.0 ms, predictions 0 / 0.0 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 0 / 0.0 ms, bases compiled 0 / 0.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 0 misses with no pulling base ready); background builds kicked 0, done 0, made by the draw 0, in flight 0; draws that waited:
+[dm] [nvn] frame interval up to frame 2400: >16.7ms 146 / 300 frames, p99 18.53 ms
+[dm] [nvn] power up to frame 2400: CPU energy 0.05 W, 0.8 mJ per frame (58.8 fps); CPU 15% (100 = one core), 9% of it on performance cores; wakeups 1138/s (out of platform idle 457); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 2400: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 3300 / saved 0; split submits 300 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 0; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 0, a dispatch 0, a read of its writes 0, depth written before it 0, another op 2700); attachments per frame load 80 MB / store 159 MB, load-all store-all passes 9, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 2400: CPU by guest priority ≤44 100 / 45–59 11 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 54 ms/s, 0x1006 'CRI Server Manager' priority 36 34 ms/s, 0x1001 'main thread' priority 44 12 ms/s
+[dm] [nvn] vertex bindings up to frame 2400: per frame address lookups 265 / reused 784, vertex table writes 283 / skipped 994, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 2400: 22534 instructions per draw, submit per frame 2.63 M instructions / CPU 0.673 ms, 116 draws per frame
+[dm] [nvn] translation detail up to frame 2400: submit per frame 1.00 M cycles (0.38 cycles per instruction), CPU 0.673 ms of which kernel 0.019 ms, wall clock 0.672 ms; mean clock 1.48 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 1.41 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 1.41 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 8 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 19, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 96; write-protection faults 96, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 303
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.734 ms) set
+[dm] [nvn] frame 2400: 49 functions 4558 calls
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 6505 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.403 ms) set
+[dm] DM_CTL: screenshot of the next frame → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/04-loaded-scene.png
+[dm] [nvn-mtl] screenshot 1920x1080 format 70 → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/04-loaded-scene.png ok
+[dm] [longframe] frame 2574 (45.23 s) whole frame 68.3 ms, submit+present 0.2 ms, GPU 2.4 ms; new pipelines 0 + shader libraries 0, 0.0 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] [nvn-mtl] pipeline archive: 18 new pipeline bases written to 00003.mtl4a (0.7 MB, 41 ms)
+[dm] [nvn] timing up to frame 2700: frame time p50 16.65 / p95 18.25 / max 68.27 ms (300 frames); frame work p50 16.56 / p95 18.18 / max 68.25 ms (300 frames); NVN submit+present p50 0.71 / p95 0.85 / max 0.88 ms (300 frames); GPU p50 2.41 / p95 4.07 / max 4.12 ms (300 frames);
+[dm] [nvn] pipelines up to frame 2700: on the submit thread pipelines 0.0 ms, shader libraries 0.0 ms, predictions 0 / 0.0 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 0 / 0.0 ms, bases compiled 0 / 0.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 0 misses with no pulling base ready); background builds kicked 0, done 0, made by the draw 0, in flight 0; draws that waited:
+[dm] [nvn] frame interval up to frame 2700: >16.7ms 147 / 300 frames, p99 18.49 ms
+[dm] [nvn] power up to frame 2700: CPU energy 0.11 W, 1.9 mJ per frame (58.2 fps); CPU 14% (100 = one core), 29% of it on performance cores; wakeups 1133/s (out of platform idle 409); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 2700: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 3300 / saved 0; split submits 300 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 0; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 0, a dispatch 0, a read of its writes 0, depth written before it 0, another op 2700); attachments per frame load 80 MB / store 159 MB, load-all store-all passes 9, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 2700: CPU by guest priority ≤44 83 / 45–59 10 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 46 ms/s, 0x1006 'CRI Server Manager' priority 36 26 ms/s, 0x1001 'main thread' priority 44 10 ms/s
+[dm] [nvn] vertex bindings up to frame 2700: per frame address lookups 265 / reused 784, vertex table writes 283 / skipped 994, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 2700: 22521 instructions per draw, submit per frame 2.62 M instructions / CPU 0.578 ms, 117 draws per frame
+[dm] [nvn] translation detail up to frame 2700: submit per frame 0.95 M cycles (0.36 cycles per instruction), CPU 0.578 ms of which kernel 0.016 ms, wall clock 0.577 ms; mean clock 1.65 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 1.40 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 1.40 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 8 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 19, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 173; write-protection faults 173, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 303
+[dm] [nvn] frame 2700: 49 functions 4558 calls
+[dm] audio #0 device callbacks 10000: 240–240 frames each, 2.7 blocks queued on average at callback; in these 2000, 0 underruns, 0.0 ms zero-padded
+[dm] [nvn] timing up to frame 3000: frame time p50 16.58 / p95 18.27 / max 18.56 ms (300 frames); frame work p50 16.49 / p95 18.19 / max 18.51 ms (300 frames); NVN submit+present p50 0.77 / p95 0.86 / max 0.90 ms (300 frames); GPU p50 2.41 / p95 4.06 / max 6.74 ms (300 frames);
+[dm] [nvn] pipelines up to frame 3000: on the submit thread pipelines 0.0 ms, shader libraries 0.0 ms, predictions 0 / 0.0 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 0 / 0.0 ms, bases compiled 0 / 0.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 0 misses with no pulling base ready); background builds kicked 0, done 0, made by the draw 0, in flight 0; draws that waited:
+[dm] [nvn] frame interval up to frame 3000: >16.7ms 134 / 300 frames, p99 18.47 ms
+[dm] [nvn] power up to frame 3000: CPU energy 0.05 W, 0.8 mJ per frame (59.1 fps); CPU 15% (100 = one core), 9% of it on performance cores; wakeups 1137/s (out of platform idle 358); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 3000: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 3300 / saved 0; split submits 300 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 0; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 0, a dispatch 0, a read of its writes 0, depth written before it 0, another op 2700); attachments per frame load 80 MB / store 159 MB, load-all store-all passes 9, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 3000: CPU by guest priority ≤44 98 / 45–59 11 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 55 ms/s, 0x1006 'CRI Server Manager' priority 36 30 ms/s, 0x1001 'main thread' priority 44 12 ms/s
+[dm] [nvn] vertex bindings up to frame 3000: per frame address lookups 265 / reused 784, vertex table writes 283 / skipped 994, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 3000: 22533 instructions per draw, submit per frame 2.63 M instructions / CPU 0.683 ms, 116 draws per frame
+[dm] [nvn] translation detail up to frame 3000: submit per frame 1.02 M cycles (0.39 cycles per instruction), CPU 0.683 ms of which kernel 0.019 ms, wall clock 0.682 ms; mean clock 1.49 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 1.40 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 1.40 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 8 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 19, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 249; write-protection faults 249, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 303
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.651 ms) set
+[dm] [nvn] frame 3000: 49 functions 4558 calls
+[dm] [movie] AcquireInputBufferIndex → 0 index 3 left 0
+[dm] [movie] SendInputBufferForDecode index 3 offset 0 length 6988 time 0 µs flags 0 (1 packets queued)
+[dm] [movie] AcquireOutputBufferIndex → index 1 time 0 flags 0 left 0
+[dm] [movie] GetOutputBuffer index 1 → 884736 bytes
+[dm] [movie] GetOutputBufferFormat index 1
+[dm] [movie] release output index 1 (0 packets queued)
+[dm] [nvn] present thread time-constraint policy (period 16.667 ms, computation 1.378 ms) set
+[dm] [nvn] timing up to frame 3300: frame time p50 16.57 / p95 18.17 / max 18.70 ms (300 frames); frame work p50 16.49 / p95 18.11 / max 18.63 ms (300 frames); NVN submit+present p50 0.73 / p95 0.85 / max 0.89 ms (300 frames); GPU p50 2.41 / p95 4.06 / max 4.11 ms (300 frames);
+[dm] [nvn] pipelines up to frame 3300: on the submit thread pipelines 0.0 ms, shader libraries 0.0 ms, predictions 0 / 0.0 ms; all threads: archive lookups found 0 / 0.0 ms, found none 0 / 0.0 ms, specializations 0 / 0.0 ms, bases compiled 0 / 0.0 ms; draws with a hybrid pipeline 0 (0 pulling pipelines made, 0 misses with no pulling base ready); background builds kicked 0, done 0, made by the draw 0, in flight 0; draws that waited:
+[dm] [nvn] frame interval up to frame 3300: >16.7ms 126 / 300 frames, p99 18.51 ms
+[dm] [nvn] power up to frame 3300: CPU energy 0.05 W, 0.9 mJ per frame (59.4 fps); CPU 14% (100 = one core), 7% of it on performance cores; wakeups 1155/s (out of platform idle 371); GPU 0.0 ms/s; thermal -1; top yielders: none
+[dm] [nvn] residency set up to frame 3300: commits 0 / 0.0 ms, added 0, 0 MB (), removed 0; draw-pass entry barriers full 3300 / saved 0; split submits 300 (0 after buffer → texture copies); passes broken by copies / buffer updates 0; in-pass uniform updates deferred 0, passes ended to land them for a read 0, partly covered blocks read from memory 0 (cached 0, refused 0: other GPU writes 0, earlier submission running 0, copy or fill queued 0, size 0, unreadable 0); waiting clears taken by a later pass 600, landed in passes of their own 0; slice-merged passes 0 (layer switches taken in 0, waits for an amplified pipeline 0); compute dispatches moved ahead of their pass 0 (sampling its depth 0; scans stopped by a draw 0, a dispatch 0, a read of its writes 0, depth written before it 0, another op 2700); attachments per frame load 80 MB / store 159 MB, load-all store-all passes 9, saved by not storing unwritten attachments 0.0 MB
+[dm] [nvn] threads up to frame 3300: CPU by guest priority ≤44 94 / 45–59 10 / ≥60 0 ms/s; top: 0x1002 'FnSwitchRenderFiber' priority 44 53 ms/s, 0x1006 'CRI Server Manager' priority 36 29 ms/s, 0x1001 'main thread' priority 44 12 ms/s
+[dm] [nvn] vertex bindings up to frame 3300: per frame address lookups 264 / reused 784, vertex table writes 282 / skipped 994, streams not 4-byte aligned copied 0.0 (0.00 MB)
+[dm] [nvn] translation up to frame 3300: 22517 instructions per draw, submit per frame 2.62 M instructions / CPU 0.647 ms, 116 draws per frame
+[dm] [nvn] translation detail up to frame 3300: submit per frame 1.03 M cycles (0.39 cycles per instruction), CPU 0.647 ms of which kernel 0.017 ms, wall clock 0.646 ms; mean clock 1.60 GHz (cycles / CPU time); this thread's QoS 0; allocator pools 3, GPU waits so far 0; real-time declared computation 1.38 ms; main thread yields per frame 0 / 0.000 ms
+[dm] [nvn] thread policy: main thread real-time computation 1.38 ms / period 16.67 ms, real-time policy in effect, current priority 97 (base 97, policy 2); 8 worker threads QoS 0x21; present QoS 0x21
+[dm] [nvn] packaged textures: first uploads 19, re-uploads on pool content change 0, writes beside a texture only (not re-uploaded) 325; write-protection faults 325, pages unprotected before host writes 0; missed 0 (cumulative); CPU-written textures alive 303
+[dm] [nvn] frame 3300: 49 functions 4558 calls
+[dm] DM_CTL: screenshot of the next frame → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/05-final.png
+[dm] [nvn-mtl] screenshot 1920x1080 format 70 → <game-root>/rgba4-pr-fixes-validation/13-candidate-01/05-final.png ok
+[dm] [longframe] frame 3453 (60.16 s) whole frame 50.2 ms, submit+present 0.2 ms, GPU 2.4 ms; new pipelines 0 + shader libraries 0, 0.0 ms in all; texture uploads 0 first + 0 re-uploads, 0.0 MB / 0.0 ms; draws with a hybrid pipeline 0
+[dm] audio #0 device callbacks 12000: 240–240 frames each, 2.7 blocks queued on average at callback; in these 2000, 0 underruns, 0.0 ms zero-padded
+[dm] received SIGTERM: graceful exit
+[dm] audio suspended (background / interruption)
+[dm] [nvn] graphics suspended: in-flight GPU work drained
+[dm] graceful exit done (0.032 s)

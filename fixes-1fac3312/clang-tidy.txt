@@ -1,0 +1,8 @@
+[1/6] dm/gfx/nvn/nvn_mtl.m: 68 findings
+[2/6] dm/gfx/nvn/hle_nvn.c: 8 findings
+[3/6] dm/gfx/tex/nvn_fmt_mtl.c: 0 findings
+[4/6] dm/gfx/tests/t_view_swizzle.m: 5 findings
+[5/6] dm/gfx/tests/t_readback.m: 1 findings
+[6/6] dm/gfx/tests/t_stencil_view.m: 2 findings
+LLVM 23.1.4: 98 findings in 9 files, 27 file/check pairs
+baseline 271 findings; 0 file/check pairs above it, 0 below it

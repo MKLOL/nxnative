@@ -1,0 +1,26 @@
+Full graphics make run: exit 0. Selected summaries (not the complete log):
+LINEAR_READBACK cases=24 failed=0
+READBACK cases=341 failed=0
+READBACK cases=342 failed=0
+stencil views: 18 checks, 0 failed
+texture view swizzle: 677 checks, 0 failed
+
+Tool tests:
+...........................................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 906 tests in 60.174s
+
+OK (skipped=16)
+
+Texture tests:
+E packaged 3D block dimensions and mip reductions
+S sparse layout (64 KB tiles: tiled levels padded to whole tiles, then the mip tail)
+  S 1024×1024 ASTC 6×6 sparse: levels at 0, 0x90000, 0xd0000 …, storage 0xe0000 (expected 0x90000, 0xd0000, 0xe0000)
+all passed: 5344/5344 checks passed
+
+Docs tests:
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 0.397s
+
+OK

@@ -1,0 +1,9 @@
+[dm] [nvn] null device: 743 names, 481 implemented (467 semantic + 14 empty, 342 of them on the large host stack), the other 262 go to the red-reporting stub
+2026-11-02 13:28:58.627 baseline-store[5474:10605638] Metal API Validation Enabled
+[dm] [msl] host shader libraries: 13, compiled for macosx by Apple metal version 32023.922 (metalfe-32023.922.4)
+[dm] [nvn-mtl] Metal device Apple M5 Max
+[dm] [nvn-mtl] texture upgraded to allow format views ser=99490 base format 23 → view format 42 (upgrades=1)
+[dm] [nvn-mtl] image read in another class than its texture: first case texture ID 490 Metal format 42 → 23
+[dm] [nvn-mtl] counter timestamps: one time for the whole submission (profile key gpu_timestamps; DM_NVN_GPU_TS=segment / submission)
+INVERSE real=1 basepf=23 imagepf=23 usage=23 expected=R16Uint writable
+STORE guest=1357,0f00 expected=1357,0f00
