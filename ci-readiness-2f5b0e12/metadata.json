@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-02T20:43:36.893900+00:00",
+  "candidate": "2f5b0e12c54fb7f1a4d8714d5a7645b6eebae49f",
+  "baseline": "65501fbbaf8526f7aab0a1edd028135888590f8e",
+  "runtime_evidence_candidate": "1fac3312fe86e0c5a7ec6a27cfa84aba2a55aa81",
+  "host_core_files": {
+    "dm/gfx/nvn/nvn_mtl.m": "b0c2cbe9f722fed6718e337631dd1612dc76f2769cdae721c2518e4e0a710c60",
+    "dm/gfx/nvn/hle_nvn.c": "1bec181e8aaae8e28dc0eab145eda0cada48a2d5b5232fd328d0a0e38d800411",
+    "dm/gfx/msl/rb_swap.metal": "e959abbfb4cd277cf37023b3da2486c8f8a909432d09fdd774a2c1e460febe60",
+    "dm/gfx/tex/nvn_fmt_mtl.c": "bb02f090cc0d53a051f58dd20260bff6ff7b2f6a082e0071b9201a285d21c7bc"
+  },
+  "files": {
+    "README.md": "663868c69d133d5a29942e3b782a7bb3c51367dd8b1f1a797cb2ee54b4195934",
+    "check-summary.txt": "a90dbe7d7b2b852919ab76b683f869346454b58a862c855cf19df41da2b2c44c",
+    "clang-tidy-diagnostics.txt": "f815b0dc85f0df2cddb4753d499cd5f44c60180074756213ab1a40c0c2cbb447",
+    "clang-tidy-scope.txt": "6d16a47b25375b86fdef156f0d1bebfeaa43f7d1115444d3086107dd492389f3",
+    "regression-report.md": "3d8ea1aa06cdbc5609a8a53b236c6edcd4efe557b4f90fdb8415453a4e3a5dc6"
+  }
+}

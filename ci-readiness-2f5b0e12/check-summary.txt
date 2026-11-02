@@ -1,0 +1,17 @@
+Candidate: 2f5b0e12c54fb7f1a4d8714d5a7645b6eebae49f
+Baseline: 65501fbbaf8526f7aab0a1edd028135888590f8e
+
+Full pinned LLVM 23.1.4 / Wonder compilation database: 217 translation units.
+268 findings; 0 file/check pairs above baseline; 0 below.
+Baseline decreases 271 -> 268; no counts increased.
+
+Python tool tests: 906 tests in 67.420s, OK (skipped=16).
+Geometry dependency fixture: 3 configurations, 57 checks each, 0 failures.
+Primitive-ID image fixture: 6 checks, 0 failures.
+Docs/symptom generator: 717 symptoms, no generated changes.
+Git diff --check: pass.
+
+Runtime host core files are byte-identical to the files tested at 1fac3312.
+Full shader/interface harness rerun at this candidate: PASS for both games.
+No new gameplay, audio, FPS, later-area or iOS claims.
+GitHub checks are separate from these local checks.
